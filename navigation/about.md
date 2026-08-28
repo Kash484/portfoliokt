@@ -7,7 +7,7 @@ comments: true
 
 ## As a Conversation Starter
 
-Hi! My name is Kashyap Tubati, but I go by Kash.
+Hi! My name is Kashyap Tubati, but I go by Kash. 
 
 If I had to describe myself in three words, I’d say: kind, loyal, and tall.
 
