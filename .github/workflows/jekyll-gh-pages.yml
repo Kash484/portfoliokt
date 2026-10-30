@@ -34,12 +34,8 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1' # Set this to your desired Ruby version
+          ruby-version: '3.1.7' # Pin directly to the patch version compiled for Ubuntu 26.04
           bundler-cache: true
-      - name: Install Jekyll and dependencies
-        run: |
-          gem install bundler
-          bundle install
       - name: Install Python dependencies
         run: |
           python -m venv venv  # Create virtual environment
