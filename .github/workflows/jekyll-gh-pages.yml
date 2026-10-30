@@ -32,7 +32,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
       - name: Set up Ruby
-        uses: ruby/setup-ruby@v5
+        uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.1.7' # Pin directly to the patch version compiled for Ubuntu 26.04
           bundler-cache: true
